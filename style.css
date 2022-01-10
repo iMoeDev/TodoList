@@ -1,0 +1,159 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-size: 17px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    body{
+    
+    background: #222831;
+    color: #dddddd;
+    
+    
+    }
+    
+    .input{
+        border-radius: 3px;
+        border:none;
+        padding: 3px;
+    }
+    
+    
+    .select{
+    
+    direction: none;
+    color: #222831;
+    border:none;
+    border-radius: 5px;
+    
+    }
+    
+    
+    h2, form{
+    
+    font-size: 60px;
+       
+    
+    }
+    
+    
+    .flex{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    
+    
+    
+    }
+    
+    
+    #ul-div{
+    
+    position: relative;
+    bottom: 9rem;
+    height: 10rem;
+    
+    
+            
+    }
+    
+    .links{
+        position: absolute;
+        left: 33rem;
+        list-style: none;
+
+    
+    }
+    
+    
+    li{
+        border:2px solid #30475e;
+        border-radius: 5px;
+        min-width: 20rem;
+         margin: 8px 0px;
+         padding:   5px;
+         position: relative;
+
+    
+    
+    }
+    .delete{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        padding: 5px 19px  5px 5px;
+        border-bottom-left-radius: 8px ;
+        cursor: pointer;
+    
+    }
+    
+    .done{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 5px;
+    
+    
+    }
+    
+    .done,.delete{
+        border: none;
+        float: right;
+        color: teal;
+        background-color: #222831;
+    
+    }
+    
+    .DoneBaby{
+    
+    text-decoration: line-through;
+    opacity: 0.5;
+    
+    
+    }
+    
+    
+    .add:hover,.delete:hover, .done:hover{
+    
+        color: #222831;
+        background-color:teal;
+        border:none;
+    transition: all 0.5s ease;
+    
+    }
+    
+    .add{
+        padding: 5px 20px;
+        border: 1px solid #f05454;
+        cursor: pointer;
+        border-radius: 6px;
+        color: rgb(228, 228, 228);
+        background-color: #222831;
+    
+    
+    
+    }
+    
+    
+    .red{
+    
+        font-size: 60px;
+        color: #f05454;
+    }
+    
+    
+    
+    
+    
+    .background{
+    background-color: #f05454;
+    border: 2px solid #cc3d3d;
+    border-radius: 15px;
+    padding: 10px 30px;
+    
+    }
